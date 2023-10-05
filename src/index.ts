@@ -22,7 +22,7 @@ writeToProfile('my-profile', [
   ]),
 
   rule('Cmd-~ maps to Control-~ in Emacs').manipulators([
-    map('`','⌘').to(toKey('`','control')).condition(ifApp('Emacs')),
+    map('`','⌘').to(toKey('`','⌃')).condition(ifApp('Emacs')),
   ])
 ])
 
